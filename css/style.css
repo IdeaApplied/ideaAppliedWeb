@@ -162,6 +162,9 @@ p {
 }
 
 @media (max-width: 768px){
+    .parallax{
+        background-position: center center !important;
+    }
     .home-iphone{
         display: none;
     }

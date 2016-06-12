@@ -11,11 +11,11 @@ $(window).bind("load", function() {
 $(document).ready(function() {
 
     "use strict";
-    
+    $(".navbar-brand").hide();
     $(window).scroll(function() {
 
         "use strict";
-        
+        $(".navbar-brand").show();
         if ($(window).scrollTop() > 80) {
             $(".navbar").css({
                 'margin-top': '0px',
