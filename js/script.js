@@ -282,11 +282,11 @@ $(document).ready(function() {
         }
         if (name && emaild && message) {
             $.ajax({
-                url: '../mail/mailer.php',
+                url: './mail/mailer.php',
                 type: 'POST',
                 data: {
                     name: name,
-                    emaild: emaild,
+                    email: emaild,
                     subject: subject,
                     message: message
                 },                
