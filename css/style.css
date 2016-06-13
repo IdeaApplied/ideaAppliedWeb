@@ -1147,3 +1147,9 @@ select:-webkit-autofill {
 .service_heading{
     text-align: center;
 }
+
+@media (max-width: 991px) {
+   .about_phone img {
+        margin-top: 0px !important;
+    }  
+}
