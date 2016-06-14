@@ -12,11 +12,13 @@ http://www.gnu.org/licenses/gpl.html
 */
 
 (function( $ ){
-	var $window = $(window);
+	var $window = $(window);	
 	var windowHeight = $window.height();
+	var windowWidth = $window.width();
 
 	$window.resize(function () {
 		windowHeight = $window.height();
+		windowWidth = $window.width();
 	});
 
 	$.fn.parallax = function(xpos, speedFactor, outerHeight) {
