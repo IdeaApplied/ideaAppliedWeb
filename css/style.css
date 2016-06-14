@@ -399,7 +399,6 @@ tuor:visited {
     background: rgba(0, 0, 0, .6);
     padding-top: 80px;
     padding-bottom: 80px;
-    margin-top: 100px;
 }
 .carousel-indicators {
     bottom: -8px;
@@ -1152,4 +1151,8 @@ select:-webkit-autofill {
    .about_phone img {
         margin-top: 0px !important;
     }  
+}
+
+.about {
+    padding-bottom: 75px;
 }
