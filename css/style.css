@@ -311,9 +311,12 @@ tuor:visited {
 .about_phone img {} @media (min-width: 991px) and (max-width: 1200px) {
     .about_phone img {
         margin-top: 184px;
-        width: 80%;
-        margin-right: 20%
+        width: 450px !important;
+        margin-right: 20%;
+        height: 590px !important;
     }
+
+
 }
 /*---------------------------------------
    SECTION VIDEO              
