@@ -105,7 +105,8 @@ div.carousel-inner .item img{border:2px solid #0098d8;border-radius:50%;padding:
 .left_single_feature p{color:#333;font-size:16px;font-weight:300;line-height:25px;}
 .right_no_padding{padding-left:15px;}
 .left_no_padding{padding-right:15px;}
-@media (min-width:991px) and (max-width:1200px){.right_single_feature{margin-left:-60px;}
+@media (min-width:991px) and (max-width:1200px){.right_single_feature{margin-left:0;}
+.service_heading{height:50px;}
 .left_single_feature{margin-right:-60px;}
 .feature_iphone{margin-top:35px;}
 .right_single_feature h3,
