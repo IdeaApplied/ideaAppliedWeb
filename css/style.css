@@ -232,4 +232,46 @@ select:-webkit-autofill{background-color:red;background-image:none;color:rgb(0, 
 .work_icons{border:1px solid #9d9d9d;border-radius:3px;color:#9d9d9d;display:inline-block;height:120px;line-height:115px;text-align:center;text-decoration:none;transition:all 1s ease 0s;width:120px;font-size:100px;}
 .work_icons:hover{background:#0098d8 none repeat scroll 0 0;border:1px solid #0098d8;color:#fff;}
 .work_img{height:120px !important;width:120px !important;filter:gray;filter:grayscale(1);-webkit-filter:grayscale(1);}
-.work_img:hover{filter:none;-webkit-filter:grayscale(0);}
+.work_img:hover{
+	filter:none;
+	-webkit-filter:grayscale(0);
+}
+.side_dock {
+	margin: 50px -2px 0 0;
+    padding: 0;
+    position: fixed;
+    right: 0    
+}
+.side_dock ul{
+	margin:0;
+	padding:0;
+	text-align:center;
+	border:1px solid #0098d8;
+	border-radius: 3px;
+
+
+}
+.side_dock ul li{
+	list-style:none;
+}
+.side_dock ul li a{
+	text-decoration:none;
+	display:inline-block;
+	text-align:center;
+	width:55px;
+	height:55px;
+	line-height:59px;
+	color:#0098d8;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+	transition:all 1s;
+
+}
+.side_dock ul li a i{
+	font-size:20px;
+}
+.side_dock ul li a:hover{
+	background:#0098d8;
+	color:#f9f9f9;
+}
