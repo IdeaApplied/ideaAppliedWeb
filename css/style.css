@@ -228,6 +228,13 @@ select:-webkit-autofill{background-color:red;background-image:none;color:rgb(0, 
 .service_heading{text-align:center;}
 @media (max-width:991px){.about_phone img{margin-top:0px !important;}
 #owl-demo .item{margin-left:35px;}
+.div_center {
+	margin: 0 auto !important;
+	width: 150px;
+}
+.project_details {
+	vertical-align: middle;
+}
 }
 .about{padding-bottom:75px;}
 .work_icons{border:1px solid #9d9d9d;border-radius:3px;color:#9d9d9d;display:inline-block;height:120px;line-height:115px;text-align:center;text-decoration:none;transition:all 1s ease 0s;width:120px;font-size:100px;}
@@ -238,7 +245,7 @@ select:-webkit-autofill{background-color:red;background-image:none;color:rgb(0, 
 	-webkit-filter:grayscale(0);
 }
 .side_dock {
-	margin: 50px -2px 0 0;
+	margin: 40px -2px 0 0;
     padding: 0;
     position: fixed;
     right: 0    
@@ -276,3 +283,35 @@ select:-webkit-autofill{background-color:red;background-image:none;color:rgb(0, 
 	background:#0098d8;
 	color:#f9f9f9;
 }
+.client{
+	background:url(../images/clients.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.client .section_overlay{
+	background:rgba(0, 0, 0, .6);
+}
+
+.dark_section_content{
+	color: #0098d8;
+}
+
+.client_image {
+	border: 2px solid #0098d8;
+	padding: 3px;
+
+}
+
+.project_details {
+	height: 220px;  
+	width: 220px;
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+.project_image {
+	border: 3px solid #0098d8;
+	box-shadow:0 0 5px #888888;
+
+}
+
