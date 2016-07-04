@@ -1,4 +1,7 @@
 *{margin:0;padding:0;}
+html, body {
+    max-width: 100%;
+}
 body{font-family:'Raleway', sans-serif;overflow-y:scroll;overflow-x:hidden;}
 p{font-family:'Raleway', sans-serif;font-size:14px;}
 .section_title{padding-top:90px;padding-bottom:50px;}
