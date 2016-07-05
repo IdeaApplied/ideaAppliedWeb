@@ -315,6 +315,35 @@ select:-webkit-autofill{background-color:red;background-image:none;color:rgb(0, 
 .project_image {
 	border: 3px solid #0098d8;
 	box-shadow:0 0 5px #888888;
+}
+
+
+a:hover {
+	position: relative;
 
 }
 
+a[data-title]:hover:after {
+  content: attr(data-title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: -79%;
+  bottom: 0;
+  width: 250%;
+  margin-bottom: 90%;
+  z-index: 20;
+  white-space: normal;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0px 0px 4px #888888;
+  -webkit-box-shadow: 0px 0px 4px #888888;
+  box-shadow: 0px 0px 4px #888888;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
